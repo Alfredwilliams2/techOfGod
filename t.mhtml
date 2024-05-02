@@ -1,0 +1,70 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://127.0.0.1:5500/log%20in.html
+Subject: Document
+Date: Wed, 6 Mar 2024 12:19:05 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--XwWw1WaEF48P0KWXoyVaWgUsjMxqtGk2rBDX49k7yG----"
+
+
+------MultipartBoundary--XwWw1WaEF48P0KWXoyVaWgUsjMxqtGk2rBDX49k7yG----
+Content-Type: text/html
+Content-ID: <frame-DF5DF43B2EE78B9EDD0577B1823CBB6E@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5500/log%20in.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-fb41f47d-f2ea-422b-a7a2-6d7f5c0e1cbe@mhtml.blink" />
+   =20
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class=3D"noy">
+        <ul class=3D"gote">
+            <li class=3D"onn"><a href=3D"http://127.0.0.1:5500/HOME">Challe=
+nges</a></li>
+            <li class=3D"onn"><a href=3D"http://127.0.0.1:5500/ABOUT">Solit=
+ions</a></li>
+            <li class=3D"onn"><a href=3D"http://127.0.0.1:5500/TESTIMONIALS=
+">Post</a></li>
+            <li class=3D"onn"><a href=3D"http://127.0.0.1:5500/PRICING">Sni=
+ppets  </a></li>
+        </ul>
+        <div class=3D"kill">Log in </div>
+        </div>
+        <hr>
+        <h1 class=3D"bee">A Community for <br>Developers To Thrive</h1>
+        <p class=3D"grow">Grow your web development skills by building real=
+-word projects <br> and connecting with a community of motivated developers=
+</p>
+<!-- Code injected by live-server -->
+
+
+</body></html>
+------MultipartBoundary--XwWw1WaEF48P0KWXoyVaWgUsjMxqtGk2rBDX49k7yG----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-fb41f47d-f2ea-422b-a7a2-6d7f5c0e1cbe@mhtml.blink
+
+@charset "utf-8";
+
+.noy { display: flex; justify-content: space-between; }
+
+.gote { list-style-type: none; display: flex; margin: auto; gap: 1cm; text-=
+decoration: none; }
+
+.kill { font-size: 20px; margin-right: 2cm; gap: 1cm; }
+
+.gote a { text-decoration: none; color: rgb(0, 0, 0); gap: 1cm; }
+
+.bee { text-align: center; padding: 70px 0px; align-items: center; font-siz=
+e: 80px; font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans=
+-serif; }
+
+.grow { text-align: center; }
+------MultipartBoundary--XwWw1WaEF48P0KWXoyVaWgUsjMxqtGk2rBDX49k7yG------

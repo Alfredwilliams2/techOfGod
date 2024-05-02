@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(gost\ rider\ .jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    height: 15vh;
+    background: transparent;
+    align-items: center;
+}
+.nav-logo{
+    color: #fff;
+    font-size: 30px;
+    margin-left: -410px;
+}
+.nav-links{
+    display: flex;
+    margin-right: -350px;
+}
+ul{
+    display: flex;
+    gap: 1cm;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.move{
+    margin-left: 14cm;
+    margin-top: 1cm;
+
+} 
+.move:hover{
+    color: white;
+}
+.moves:hover{
+    color: white;
+}

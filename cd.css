@@ -1,0 +1,70 @@
+img{
+    width: 100%;
+}
+body{
+    background-color: #eaeff1;
+    font-family:fantasy
+}
+#container{
+    max-width: 300px;
+    margin: 0 auto;   
+    margin-top: 20vh;
+}
+.card{
+    background-color:white;
+    padding: 8px;
+    height: 80vh;   
+    border-radius: 12px;
+    border: 1px solid #BACDD8;
+    margin-top: -80px;
+}
+.card .Name{
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 20px;
+    color: ;
+}
+.tag{
+    padding: 4px  8px;
+    border: 1px solid #E5EAED;
+
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #788697;
+}
+.name{
+    font-size: 30px;
+    font-weight: 600;
+
+
+    margin-top: 16vh;
+    color: red;
+}
+p{
+    font-size: 14px;
+    color: black;
+    line-height: 150%;
+}
+button{
+    border: none;
+    padding: 12px  24px;
+    border-radius: 50px;
+
+    font-weight: 600;
+    color: #0077FF;
+    background-color: #ddd;
+
+    margin:0 auto;
+    display: block;
+
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+}
+button:focus,button:hover{
+    color: #fff;
+    background-color: #0df;
+}
+.card-details{
+    padding: 16px 8px 8px 8px;
+}

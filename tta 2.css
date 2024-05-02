@@ -1,0 +1,183 @@
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.input {
+    /* padding-left: 100px; */
+    background-color: transparent !important;
+    padding: 10px;
+    width: 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    /* box-shadow: 0 1px  gray; */
+    font-size: 12px;
+    transition: width 0.3s;
+    font-family: Consolas,monaco,monospace;
+    
+  }
+  
+  .input:focus {
+    outline: 1px solid rgb(38, 38, 43);
+    box-shadow: none;
+    width: 200px;
+  }
+  
+  .input::placeholder {
+    color: grey;
+  }
+  .okay{
+    width: fit-content;
+  }
+  .love{
+    margin-left: 350px
+  }
+  .glove{
+    font-size: 60px;
+  } 
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.hover-image {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+
+.image-container:hover .hover-image {
+    transform: translateY(-10px);
+}
+.noah:hover{
+     background-image: url(https://img.freepik.com/free-vector/royal-watercolor-valentine-red-background_1340-4006.jpg?size=338&ext=jpg&ga=GA1.1.553209589.1714111200&semt=ais);
+     color: white;
+     transition: 1s;
+     cursor: pointer;
+}
+.slider-container {
+  width: 100%;
+  position: relative;
+}
+
+.slider-wrapper {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.card {
+  flex: 0 0 300px;
+  /* Adjust card width */
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+.slider-container{
+  transition: .8s;
+}
+.wave-group {
+  position: relative;
+}
+
+.wave-group .input {
+  font-size: 16px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 200px;
+  border: none;
+  border-bottom: 1px solid #515151;
+  background: transparent;
+}
+
+.wave-group .input:focus {
+  outline: none;
+}
+
+.wave-group .label {
+  color: #999;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  display: flex;
+}
+
+.wave-group .label-char {
+  transition: 0.2s ease all;
+  transition-delay: calc(var(--index) * .05s);
+}
+
+.wave-group .input:focus ~ label .label-char,
+.wave-group .input:valid ~ label .label-char {
+  transform: translateY(-20px);
+  font-size: 14px;
+  color: #5264AE;
+}
+
+.wave-group .bar {
+  position: relative;
+  display: block;
+  width: 200px;
+}
+
+.wave-group .bar:before,.wave-group .bar:after {
+  content: '';
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: #5264AE;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+.wave-group .bar:before {
+  left: 50%;
+}
+
+.wave-group .bar:after {
+  right: 50%;
+}
+
+.wave-group .input:focus ~ .bar:before,
+.wave-group .input:focus ~ .bar:after {
+  width: 50%;
+}
+.screen{
+  width: 1000px;
+}
+@media screen and (max-width:767.98px){
+  .screen{
+    width: 350px;
+  }
+}

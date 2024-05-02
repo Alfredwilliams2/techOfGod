@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    min-height: 100vh;
+    min-width: 100vh;
+    background-image: url(retirementchart-1.png);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-size: 40cm;
+    font-family: 'Trebuchet MS',;
+    font-weight: 100%;
+    color: white;
+    text-shadow: 0 4px 7px rgb(0,0,0,0,0.6);
+    letter-spacing: 2px;
+    transform: translate();
+}
+.image{
+    position: relative;
+    min-height: 20cm;
+    width: 100vh;
+    translate: all 0.25;
+}
+.king{
+    outline: 8px solid white;
+    border-bottom: 15px soild white;
+    box-shadow: 0 10px 20px 15px rgb(0,0,0,0.3);
+    object-fit: cover;
+    position: absolute;
+    height: 15cap;
+    width: 15rem;
+    transition: all 0.15s;
+}
+.king--1{
+left: 7rem;
+top: 8rem;
+z-index: 1;
+}
+.king--2{
+    left: 18rem;
+    top: 5rem;
+    z-index: 2;
+}
+.king--3{
+    left: 13rem;
+    z-index: 3;
+}
+.king.hover{
+    z-index: 4;
+    transform: scale3d(1.4) rotate(7deg) translate(-1.5rem);
+}
+
+
+</style>
+<body>
+    <!-- <img src="/" alt=""> -->
+    <div class="container">
+        <div class="image">
+        </div>
+    </div>
+    <div class="title">king</div>
+    <img src="hitman .jpg" alt="">
+    <img src="/batman-8510027.webp" alt="">
+    <img src="/superman.webp" alt="">
+    
+</body>
+</html>

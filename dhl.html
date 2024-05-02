@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<style>
+    .week{
+        display: flex;
+        gap: 2cm;
+        text-decoration: none;
+        background-color: gold; 
+        cursor: pointer;
+        padding-left: 50px;
+        position: relative;
+
+    }
+    .con{
+        margin-left: 17cm;
+        display: flex;
+        gap: 2cm;
+        /* margin-right: 17cm; */
+    }
+    .con :hover{
+        color: red;
+        text-decoration: underline;
+        transition:0.8s;
+    }
+    .second{
+        gap: 0.2cm;
+        display: flex;
+    }
+    .second a{
+        text-decoration: none;
+        color: black;
+        margin-left: 70px;
+    }
+    .second :hover{
+        color: red;
+        text-decoration: underline;
+        transition:0.8s;
+    }
+    .Fier{
+        /* text-align: center; */
+        /* margin-top: -10cm; */
+        color: #000;
+        font-size: 1cm;
+        margin-left: 12cm;
+        margin-bottom: 50px;
+        height: 1cm;
+    }
+    .phase-wrapper{
+    background-image: url(real.avif);
+    background-size: 100%;
+    background-position: center;
+    height: 70vh;
+    color: white;
+    }
+    .mad{
+        display: flex;
+        border: 2px solid;
+        align-items: center;
+        /* margin: 0 auto; */
+        /* width: 400px; */
+        justify-content: space-between;
+        background: #fff;
+    }
+    .phase{
+        margin-bottom: 40px;
+        width: 600px;
+        margin: 0 auto;
+    }
+    .mad input{
+        background: transparent;
+        border: none;
+        outline: none;
+        width: 350px;
+        height: 50px;
+    }
+    .mad button{
+        border: none;
+        background: red;
+        color: #ffff;
+        padding: 20px 20px;
+    }
+    .rude{
+        border: 1px solid white;
+        background-color: red;
+        width: 70px;
+        height: 30px;
+    }
+    .gre{
+        margin-left: 16cm;
+    }
+    .twow{
+        border: 0.1px solid black;
+        border-width: 5px;
+         /* margin-top: 100px; */
+        width: 240px; 
+        height: 220px;
+        margin-bottom: 20cm;
+        gap: 2cm ;
+    }
+    .form{
+    background-color: white;
+    width: 380px;
+    height: 4cm;
+    color: black;
+    text-align: center;
+    box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.24);
+    /* margin-top: 1cm; */
+    border-radius: 9px 0px 0px 9px;
+    /* padding-top: 1cm; */
+    font-size: 1.2rem;
+    /* border-bottom: 1px solid black; */
+    margin-top: -80px;
+    padding: 15px;
+    border: 0;
+    margin-bottom: 3cm;
+    /* margin-left: 300px; */
+}
+.lok{
+    background-color: white;
+    width: 380px;
+    margin-bottom: 3cm;
+    height: 4cm;
+    color: black;
+    text-align: center;
+    border: 0;
+    /* border-bottom: 1px solid black; */
+    box-shadow: 0px 2px 0px 0px  rgba(0,0,0,0.24);
+    /* margin-top: 1cm; */
+    /* border-radius: 5px; */
+    /* padding-top: 0.8cm; */
+    padding: 15px;
+    font-size: 1.2rem;
+    margin-top: -80px;
+}
+.knife{
+    background-color: white;
+    width: 380px;
+    border: 0;
+    height: 5.5cm;
+    color: black;
+    /* border-bottom: 1px solid black; */
+    text-align: center;
+    box-shadow: 0px 2px 0px 0px  rgba(0,0,0,0.24);
+    /* border-color:  #e0e0e0; */
+    /* margin-top: 1cm; */
+    border-radius: 10px 10px 10px 0px;
+    /* padding-top: 1cm; */
+    padding: 20px;
+    font-size: 1.2rem;
+    margin-top: -137px;
+}
+.knife:hover{
+    box-shadow: 10px 12px 16px 8px rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.lok:hover{
+    box-shadow: 10px 12px 16px 8px rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.form:hover{
+    box-shadow: 10px 12px 16px 8px rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.opp{
+    justify-content: center;
+    align-items: center;
+}
+.rec{
+    justify-content: center;
+    margin-right: 4cm;
+    width: 700px;
+    height: 650px;
+    border: 2px solid whitesmoke;
+    box-shadow: 10px 12px 16px 8px rgba(241, 235, 235, 0.945),0 17px 50px 0 rgba(163, 161, 161, 0.979);
+    /* background-color: gray; */
+    border-radius: 0.4rem 0.4rem 0 0;
+    box-shadow: var(--shadow-small);
+    clip-path: inset(-0.4rem -0.4rem 0 -0.4rem);
+    position: relative;
+    top: 0;  
+ 
+    /* background-color: white ;
+    display: flex;
+    width: 100vw;
+    position: relative; */
+}
+.rek{
+ margin-left: 2cm;   
+}
+.wok{
+  width: 700px;
+  height: 570px;
+  /* padding: 10px; */
+  border: 2px solid gray;   
+  margin-right: 2cm;
+  margin-top:  -30px;
+  font-size: larger;
+  
+  
+}  
+.you{
+    display: flex;
+    align-items: center;
+    gap: 2cm;
+
+}
+.you{
+    color: #000;
+    font-size: larger;
+}
+.yes{
+    background: whitesmoke;
+}
+.esc{
+    width: 300px;
+    /* background-color: red; */
+    cursor: pointer;
+} 
+.widee{
+    padding-left: right;
+    margin-right: 60cm;
+}
+.borderff{
+    background-color:whitesmoke;
+    width: 700px;
+    height: 300px;
+    display: flex;
+    /* border: 1px solid blanchedalmond; */
+    gap: 2cm;
+}
+.buttt{
+color: white;
+margin-left: 1cm;
+width: 600px;
+height: 50px;
+background:red;
+border: none;
+margin-top: 0.47cm;
+/* margin-bottom: 0.55cm; */
+
+}
+.dev{
+justify-content: left;
+display: flex;
+}
+.yah{
+    margin-left: 10cm;
+    display: block;
+    max-width: 100%;
+    position: relative;
+}
+.lett{
+    margin-left: 20cm;
+    margin-top: -17cm;
+    margin-right: 1cm;
+    border: 1px solid black;
+}
+.rifht{
+    /* margin-top: 1cm; */
+}
+.rifht{
+    display: flex;
+    border
+}
+.fles{
+    display:flex;
+    gap:4cm;
+}
+.call{
+    display: flex;
+    gap: 4cm;
+}
+.borderffd{
+    border: 1px solid gray;
+}  
+</style>
+<body>
+<div>
+    <div class="week">
+        <img src="/dhl-logo.svg" alt="">
+        <div class="con">
+        <p>Find a location    <i class="fa-solid fa-location-pin"></i></p>
+           <p><i class="fa-solid fa-magnifying-glass"></i>     Search</p> 
+           <p><i class="fa-solid fa-circle-user"></i>      Nigerian</p>
+        </div>
+    </div>
+    <div class="second">
+        <p><a href="#">Track    <i class="fa-solid fa-chevron-down"></i></a></p>
+        <p><a href="#">Ship     <i class="fa-solid fa-chevron-down"></i></a></p>
+        <p><a href="#">Customers Serives</a></p>
+        <p class="gre"><a href="#">Customers Portal login   <i class="fa-solid fa-chevron-down"></i></a></p>
+     </div>
+     <div class="phase-wrapper">
+        <div class="phase">
+        <h1 style="padding-top: 50px;"><b>Track Your Shipment</b></h1>
+        <div class="mad">
+            <input type="text" placeholder="      Enter your tracking number (s)">
+            <button style="cursor: pointer;font-family:Georgia, 'Times New Roman', Times, serif; font-size: 15px;"><b>Track </b>     <i class="fa-solid fa-magnifying-glass fa-beat"></i> </button>
+        </div>
+    </div>
+</div>
+<div class="opp">
+    <button class="form">
+       <img src="count.svg" alt="image" width="50px">
+       <li class="look">Ship now</a></li>
+       <p class="cake">Find the right service</p>
+    </button>
+    <button class="lok">
+       <img src="count 2.svg" alt="image" width="50px">
+       <li class="look">Get a quote</a></li>
+       <p class="cake">Estimate cost to share and compare</p>
+    </button>
+    <button class="knife">
+       <img src="count 3.svg" alt="image" width="50px">
+       <li class="look">DHL for Business</a></li>
+       <p class="cake">Shiping regularly?Request a buisness<br>account and profit from exclusive benefits</p>
+    </button>
+</div> 
+</div>
+<div class="rec">
+    
+    <div id="text-629537f428" class="cmp-text">
+       <h1 style="margin-bottom: 19px; margin-left: 0.5cm;"><b>Document and Parcel Shipping</b></h1>
+       <div class="forr">
+       <p style="font-size: 25px ;margin-left: 0.5cm;">For All Shippers</p>
+       <p class="cmp-text__inline-text cmp-text__inline-text--small-body-copy"><span class="cmp-text__inline-text cmp-text__inline-text--intro-size-3">Learn about DHL Express – the undisputed global leader in international <br> express shipping.</span></p> 
+       <h3 style="color: black; margin-left: 0.5cm;">Service Available</h3> 
+       <div class="borderff">
+       <p>Next Possible Business Day</p>
+       <p>Tailored Business Solutions</p>
+       <p>Flexible Import/Export Options</p>
+       <p>Flexible Import/Export Options <br> Services</p> 
+       </div>  
+       <button class="buttt"><b>Explore DHL Express</b></button> 
+       </div>
+       <div class="off">
+       </div>
+    </div> 
+   </div>
+   <div class="lett">
+   <img src="/woman-signs-for-package-0002.jpeg" alt="" width="600px" height="700px">
+    </div>
+   
+    <div class="rifht">
+        <div>
+            <img src="/workers-at-the-container-port-0001.jpeg" alt="" width="600px" height="600px">
+        </div>
+        <div>
+            <h1><b>Cargo Shipping</b></h1>
+            <h3><b>Business Only</b></h3>
+            <p>Discover shipping and logistics service options from DHL Global <br> Forwarding.</b></p>
+            <h3 style="color: black; margin-left: 0.5cm;">Service Available</h3> 
+           <div class="borderffd">
+            <div class="call">
+           <p>Air Freight</p>
+           <p>Ocean Freight</p>
+           </div>
+           <div class="fles">
+           <p>Road Freight</p>
+           <p>Rail Freight</p>
+            </div>
+        </div>
+ </div>
+    </div>
+   </body>
+    </html>
