@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.keybord{
+    margin-right:15cm;
+}
+.joy{
+margin-left: 19cm;
+}
+.navbar-nav a:hover{
+    background-color: blueviolet !important;
+    transition: 2s;
+
+}
+.woww{
+    border: 2px solid black;
+    background-color: #fff;
+    width: 150px;
+    height: 2cm;
+    
+}
+.mino:hover{
+    background-color: blueviolet;
+
+}
+.yoga :hover{
+    background-color: blueviolet;
+}
+.gun:hover{
+    background: blueviolet !important;
+    color: white !important;
+}

@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Group Project"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Group Project",
+		"liveServer.settings.port": 5501
+	}
+}
